@@ -1,0 +1,17 @@
+version: '2'
+services:
+    compiled:
+        image: compiled1:latest
+        build:
+          context: .
+          dockerfile: docker/compiled.Dockerfile
+        ports:
+            - "8502:8080"
+
+    serving:
+        image: serving1:latest
+        build:
+          context: .
+          dockerfile: docker/tf-serving.Dockerfile
+        ports:
+            - "8501:8501"
