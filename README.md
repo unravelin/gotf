@@ -36,4 +36,6 @@ Run test in testing directory
 $ go run test.go
 ```
 
-
+Links:
+- Blog post about with step by step for this repo: https://syslog.ravelin.com/go-tensorflow-74d1101fab3f
+- Presentation: https://prezi.com/p/edit/qbhcjhy_bepi/
